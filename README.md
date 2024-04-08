@@ -1,4 +1,6 @@
 # CVE-2024-xxxx
+- Exploit Author: nikhil-aniill
+
 # Vulnerability Description
 
 The Registration page on Small CRM v3.0 is vulnerable to SQL injection, allowing unauthorized remote code execution (RCE) via the Outfile functionality of MySQL. This vulnerability arises from inadequate input validation in the email input field, coupled with the absence of parameterized queries.
@@ -31,3 +33,4 @@ Implement strict input validation, use parameterized queries, provide security t
 ## Screenshots
 ![Affected Code](code.png)
 
+## References

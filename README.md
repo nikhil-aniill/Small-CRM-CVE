@@ -1,4 +1,4 @@
-# CVE-2024-xxxx
+# CVE-2024-3691
 - Exploit Author: nikhil-aniill
 
 # Vulnerability Description
@@ -34,3 +34,5 @@ Implement strict input validation, use parameterized queries, provide security t
 ![Affected Code](code.png)
 
 ## References
+https://nvd.nist.gov/vuln/detail/CVE-2024-3691
+[https://vuldb.com/?source_cve.260480](https://www.cve.org/CVERecord?id=CVE-2024-3691)
